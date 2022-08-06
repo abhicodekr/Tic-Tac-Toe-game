@@ -3,17 +3,17 @@
   text-align: center;
 }
 
+/*Heading*/
+h1 {
+  color: darkmagenta;
+  font-size: 45px;
+}
+
 /*Game Instruction Text*/
 #ins {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: dodgerblue;
   font-weight: bold;
-}
-
-/*Heading*/
-h1 {
-  color: darkmagenta;
-  font-size: 50px;
 }
 
 /* 3*3 Grid */
@@ -27,12 +27,13 @@ h1 {
 #b7,
 #b8,
 #b9 {
-  width: 90px;
-  height: 60px;
+  width: 80px;
+  height: 52px;
   margin: auto;
-  border: 2px solid gray;
-  border-radius: 5px;
-  font-size: 25px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 30px;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -40,17 +41,21 @@ h1 {
 
 #btn {
   box-sizing: border-box;
-  width: 90px;
-  height: 50px;
-  border: 2px solid darkgreen;
+  width: 95px;
+  height: 40px;
+  border: 1px solid darkgreen;
   margin: auto;
-  border-radius: 3px;
+  border-radius: 4px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: lightgreen;
   color: black;
   font-size: 15px;
   cursor: pointer;
+  font-weight: bold;
 }
 /*Player turn space*/
 #print {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: dodgerblue;
+  font-size: 20px;
 }
